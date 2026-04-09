@@ -1,0 +1,22 @@
+# APEX ALGO TRADING ENGINE - Requirements
+# Install: pip install -r requirements.txt
+
+# Core (required)
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Data sources (install what you need)
+yfinance>=0.2.18          # Yahoo Finance - FREE, works globally
+requests>=2.31.0           # For Binance & Alpha Vantage APIs
+
+# Indian Brokers (choose one)
+# kiteconnect>=4.2.0       # Zerodha Kite Connect
+# upstox-python-sdk>=2.0.0 # Upstox v2
+
+# Visualization (optional but recommended)
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Broker APIs (choose based on your broker)
+# alpaca-trade-api>=3.0.0  # Alpaca (US/global)
+# ccxt>=4.0.0              # 100+ crypto exchanges
