@@ -1,0 +1,22 @@
+:root {
+  --primary: #0d6efd;
+  --secondary: #6610f2;
+  --dark: #212529;
+  --light-bg: #f8f9fa;
+}
+html { scroll-behavior: smooth; }
+body { color: var(--dark); }
+section { scroll-margin-top: 70px; padding: 4rem 0; }
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+.hero h1 { font-size: clamp(2rem, 7vw, 4rem); font-weight: 700; }
+.bg-soft { background: var(--light-bg); }
+.project-card { transition: transform .2s, box-shadow .2s; }
+.project-card:hover { transform: translateY(-4px); box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.15); }
+.skill-badge { font-size: 1rem; }
